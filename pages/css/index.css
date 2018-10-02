@@ -1,0 +1,74 @@
+html {
+  background-color: black;
+  width: 500%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containers {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.containerss {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.background-image {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  align-items: center;
+  width: 100%;
+}
+
+#hero {
+  background-image: url('../../images/lens.png');
+}
+
+#H {
+  background-image: url('../../images/lasth.png');
+}
+
+#M {
+  background-image: url('../../images/lastm.png');
+}
+
+#U {
+  background-image: url('../../images/lastu.png');
+}
+
+#A {
+  background-image: url('../../images/lasta.png');
+}
+
+
+html, body, .full {
+  height: 100%;
+  width: 100%;
+}
+
+html, body, .double {
+  height: 200vh;
+  width: 100%;
+}
+
+
+html, body, .half {
+  height: 50vh;
+  width: 100%;
+}
+
+.full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.fixed {
+}
